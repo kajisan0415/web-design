@@ -130,3 +130,64 @@ li {
   z-index: 10;
   cursor: pointer;
 }
+
+#top {
+  padding-top: 80px;
+  padding-bottom: 160px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product-list li {
+  width: 23%;
+  margin-bottom: 40px;
+}
+
+.product-list img {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+.product-list p {
+  font-size: 0.75rem;
+}
+.link-text {
+  display: block;
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+.pagination li {
+  padding: 0 20px;
+}
+
+.link-text {
+  display: block;
+  text-align: center;
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+}
+
+#footer .menu {
+  display: flex;
+}
+#footer .menu li {
+  font-size: 0.75rem;
+  margin-right: 30px;
+}
+#footer .copyright {
+  font-size: 0.625rem;
+}
